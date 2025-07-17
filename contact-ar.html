@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا</title>
+  <style>
+    body { font-family: 'Cairo', sans-serif; margin: 0; background: #fff; color: #222; }
+    header, footer { background: #1e2a38; color: #fff; text-align: center; padding: 20px; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    .lang-switch { background: #e0e0e0; color: #1e2a38; padding: 6px 12px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-right: 15px; }
+    .content { padding: 40px 20px; max-width: 600px; margin: auto; text-align: right; }
+    form label { display: block; margin-top: 15px; }
+    form input, form textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    form button { margin-top: 20px; background: #1e2a38; color: #fff; padding: 10px 20px; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>اتصل بنا</h1>
+    <nav>
+      <a href="index-ar.html">الرئيسية</a>
+      <a href="apropos-ar.html">من نحن</a>
+      <a href="services-ar.html">الخدمات</a>
+      <a href="contact-ar.html">اتصل بنا</a>
+      <a href="produit.html">الشركة المنتجة</a>
+      <a href="contact.html" class="lang-switch">🇫🇷 Français</a>
+    </nav>
+  </header>
+  <section class="content">
+    <h2>أرسل لنا رسالة</h2>
+    <form action="mailto:ameub57m@gmail.com" method="POST" enctype="text/plain">
+      <label>الاسم:</label>
+      <input type="text" name="الاسم" required>
+
+      <label>البريد الإلكتروني:</label>
+      <input type="email" name="البريد الإلكتروني" required>
+
+      <label>الرسالة:</label>
+      <textarea name="الرسالة" rows="5" required></textarea>
+
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+  <footer>
+    © ٢٠٢٥ الأستاذ [اسم المحامي] — تصميم <a href="mailto:productamen@gmail.com" style="color:#ccc;">Amen Product</a>
+  </footer>
+</body>
+</html>
